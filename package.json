@@ -36,6 +36,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "preinstall": "yum install -y python3 gcc gcc-c++ make"
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
